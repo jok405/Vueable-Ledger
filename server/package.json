@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Globomantics API server",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": [],
+  "author": "Mark Scott",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "eslint": "4.19.1",
+    "express": "4.16.3",
+    "mongoose": "5.0.12",
+    "morgan": "1.9.0",
+    "nodemon": "1.17.3"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
